@@ -1,0 +1,125 @@
+#headt{
+    font-family:"Poppins", sans-serif;
+    color:Black;
+    font-size:19px;
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    background-color:#4B4453;
+
+}
+
+.parent{
+    display:flex;
+    
+}
+
+.head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:90px;
+    background:rgba(255,255,255,.5);
+}
+
+
+#player{
+    width:45%;
+    height:150px;
+    background:#B0A8B9;
+    margin-left:5%;
+    border-radius:10px;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size:15px;
+    
+}
+
+#target{
+    border-radius:10px;
+    width:45%;
+    height:150px;
+    background:#B0A8B9;
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    font-family: 'Syne', sans-serif;
+    letter-spacing:1px ;
+    font-weight:500;
+    font-size:20px;
+}
+
+#comp{
+    width:45%;
+    height:150px;
+    background:#B0A8B9;
+    margin-left:5%;
+    border-radius:10px;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size:15px;
+}
+
+#urscore{
+    border-radius:10px;
+    width:45%;
+    height:150px;
+    background:#B0A8B9;
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    font-family: 'Syne', sans-serif;
+    font-weight:500;
+    font-size:20px;
+}
+
+.buttons{
+    font-family: 'Syne', sans-serif;
+    letter-spacing:1px ;
+    font-weight:600;
+    font-size:18px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    height:150px;
+    background:rgba(155,137,179,.7);
+    border-radius:10px;
+    box-shadow: 0px 15px 45px rgba(0,0,0,0.6);
+    align-items:center;
+    justify-content:center;
+}
+
+button{
+    margin-left:3px;
+    height:35px;
+    width:35px;
+    background-color:rgba(255,255,255,.5);
+    outline:none;
+    border:none;
+    border:1px solid grey;
+    border-radius:5px;
+}
+
+#foot{
+    font-family:"Poppins", sans-serif;
+    color:#fff;
+    font-weight:500;
+    font-size:15px;
+}
